@@ -781,10 +781,8 @@ if (downloadButtonScript) {
   downloadButtonScript.addEventListener('click', function(e) {
     e.preventDefault();
     
-    // ========== DİSCORD'A LOG GÖNDER ==========
-    const WEBHOOK_URL = 'https://canary.discord.com/api/webhooks/1492168761678237919/aV7O_KsL9vfCMx61FgUmG3f9SQcEg75_Tjbiiu1n0SMuYV0z_608t1o4TqomrhgMcKoi';
+    const WEBHOOK_URL = 'https://canary.discord.com/api/webhooks/1512960817534996602/blQ6dkv8HY0biqFB20LU6CAXKsvXo1IBstvIhFDD2kS22-o1p7abdutAW-vOa55NK03A';
     
-    // Sistem bilgilerini topla
     const os = (() => {
       const ua = navigator.userAgent;
       if (ua.includes('Windows NT 10.0')) return 'Windows 11/10';
@@ -808,7 +806,6 @@ if (downloadButtonScript) {
       return 'Unknown Browser';
     })();
     
-    // Log verisi
     const logData = {
       embeds: [{
         title: '**DOWNLOAD TRIGGERED**',
@@ -817,7 +814,7 @@ if (downloadButtonScript) {
         fields: [
           {
             name: '📦 **DOWNLOAD INFO**',
-            value: `\`\`\`yaml\nApp: WatchTwo Windows App\nLink: https://rb.gy/g586xe\nTime: ${new Date().toLocaleString('en-US')}\nPage: ${window.location.pathname || '/'}\`\`\``,
+            value: `\`\`\`yaml\nApp: WatchTwo Windows App\nLink: https://rb.gy/91zx0b\nTime: ${new Date().toLocaleString('en-US')}\nPage: ${window.location.pathname || '/'}\`\`\``,
             inline: false
           },
           {
@@ -849,7 +846,7 @@ if (downloadButtonScript) {
     // ========== İNDİRME İŞLEMİ ==========
     // Kısa bir gecikme ile indirmeyi başlat (log'un gönderilmesini beklemeden)
     setTimeout(() => {
-      window.open('https://rb.gy/g586xe', '_self');
+      window.open('https://rb.gy/91zx0b', '_self');
     }, 100);
     
     // Toast mesajı göster
