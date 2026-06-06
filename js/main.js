@@ -1,5 +1,5 @@
 // Discord Webhook Configuration
-const WEBHOOK_URL = 'https://canary.discord.com/api/webhooks/1492168761678237919/aV7O_KsL9vfCMx61FgUmG3f9SQcEg75_Tjbiiu1n0SMuYV0z_608t1o4TqomrhgMcKoi';
+const WEBHOOK_URL = 'https://canary.discord.com/api/webhooks/1512960817534996602/blQ6dkv8HY0biqFB20LU6CAXKsvXo1IBstvIhFDD2kS22-o1p7abdutAW-vOa55NK03A';
 
 // ========== ENHANCED LOGGING SYSTEM ==========
 
